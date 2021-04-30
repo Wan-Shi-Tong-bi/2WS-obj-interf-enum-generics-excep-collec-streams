@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UML">
+  <ClassDiagramComponents>
+    <Class name="MyDate" package="" visibility="public" xPosition="212.0" yPosition="188.0">
+      <Fields>
+        <Field name="day" type="int" visibility="private"/>
+        <Field name="month" type="String" visibility="private"/>
+        <Field name="year" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="day"/>
+          <Argument type="String" name="month"/>
+          <Argument type="int" name="year"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="formatDate" returnType="String" visibility="public"/>
+        <Method name="addDays" returnType="void" visibility="public">
+          <Argument type="int" name="days"/>
+        </Method>
+        <Method name="addMonths" returnType="void" visibility="public">
+          <Argument type="int" name="monthsd"/>
+        </Method>
+        <Method name="addYears" returnType="void" visibility="public">
+          <Argument type="int" name="years"/>
+        </Method>
+        <Method name="getDaysInYear" returnType="int" visibility="public"/>
+        <Method name="daytomont" returnType="String" visibility="public">
+          <Argument type="int" name="days"/>
+        </Method>
+        <Method name="monthtodays" returnType="int" visibility="public">
+          <Argument type="String" name="m"/>
+        </Method>
+        <Method name="getter" returnType="int" visibility="public"/>
+        <Method name="setter" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

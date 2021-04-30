@@ -1,0 +1,2 @@
+id = 2 Vorname = Gero Nachname = Hus TNM-Klassififikation = aryC3T1C2N1C1M1
+id = 1 Vorname = Hans Nachname = Jude TNM-Klassififikation = aryC2T4C1N1C1M1

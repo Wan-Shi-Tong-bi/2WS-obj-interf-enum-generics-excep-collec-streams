@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UML">
+  <ClassDiagramComponents>
+    <Class name="Length" package="" visibility="public" xPosition="48.0" yPosition="163.0">
+      <Fields>
+        <Field name="m" type="int" visibility="private"/>
+        <Field name="dm" type="int" visibility="private"/>
+        <Field name="cm" type="int" visibility="private"/>
+        <Field name="mm" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="m"/>
+          <Argument type="int" name="cm"/>
+          <Argument type="int" name="dm"/>
+          <Argument type="int" name="mm"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getM" returnType="int" visibility="public"/>
+        <Method name="getDm" returnType="int" visibility="public"/>
+        <Method name="getCm" returnType="int" visibility="public"/>
+        <Method name="getMM" returnType="int" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="LengthConverter" package="" visibility="public" xPosition="309.0" yPosition="296.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getLength" returnType="void" visibility="public">
+          <Argument type="int" name="mm"/>
+        </Method>
+        <Method name="length2String" returnType="String" visibility="public">
+          <Argument type="Length" name="o"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

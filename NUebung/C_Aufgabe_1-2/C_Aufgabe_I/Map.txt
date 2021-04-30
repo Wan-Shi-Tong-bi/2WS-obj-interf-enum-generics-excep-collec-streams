@@ -1,0 +1,2 @@
+id = 1 Vorname = Hubert Nachname = VanGoch TNM-Klassififikation = arC1T1C1N1C1M1
+id = 2 Vorname = Hallo Nachname = Jonas TNM-Klassififikation = ayC1T1C1N1C1M1

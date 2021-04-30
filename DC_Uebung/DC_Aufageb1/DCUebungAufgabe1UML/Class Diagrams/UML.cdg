@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UML">
+  <ClassDiagramComponents>
+    <Class name="Person" package="" visibility="public" xPosition="116.0" yPosition="115.0">
+      <Fields>
+        <Field name="vorname" type="String" visibility="private"/>
+        <Field name="nachname" type="String" visibility="private"/>
+        <Field name="Land" type="String" visibility="private"/>
+        <Field name="t" type="Time" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="vorname"/>
+          <Argument type="String" name="nachname"/>
+          <Argument type="String" name="land"/>
+          <Argument type="Time" name="t"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="print" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Time" package="" visibility="public" xPosition="85.0" yPosition="350.0">
+      <Fields>
+        <Field name="min" type="int" visibility="private"/>
+        <Field name="sek" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="m"/>
+          <Argument type="int" name="s"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSeconds" returnType="int" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Rennen" package="" visibility="public" xPosition="289.0" yPosition="359.0">
+      <Fields>
+        <Field name="per" type="Person[]" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Person[]" name="p"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="print" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
